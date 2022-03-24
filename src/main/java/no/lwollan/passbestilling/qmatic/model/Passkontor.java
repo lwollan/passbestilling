@@ -15,4 +15,9 @@ public class Passkontor {
         this.onlyPassId = onlyPassId;
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return String.format("[name=%s] [branchId=%s] [onlyPassId=%s]", name, branchId,onlyPassId);
+    }
 }

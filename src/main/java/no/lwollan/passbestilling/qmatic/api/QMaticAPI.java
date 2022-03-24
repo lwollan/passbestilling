@@ -6,12 +6,18 @@ import java.util.Map;
 import no.lwollan.passbestilling.qmatic.model.AvailableDate;
 import no.lwollan.passbestilling.qmatic.model.AvailableSlot;
 import no.lwollan.passbestilling.qmatic.model.Passkontor;
+import no.lwollan.passbestilling.qmatic.model.Politidistrikt;
 
 /**
  * 'Reverse engineered' api towards the qmatic booking service. There are more operations, but
  * these are a start.
  */
 public interface QMaticAPI {
+
+    /**
+     * Liste av politidistrikt.
+     */
+    List<Politidistrikt> getPolitidistrikt() throws QMaticAPIException;
 
     /**
      * Returns the current configuration of the QMatic application.

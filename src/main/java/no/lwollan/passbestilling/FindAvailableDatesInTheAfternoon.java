@@ -1,11 +1,12 @@
 package no.lwollan.passbestilling;
 
 import static java.lang.String.format;
-import static java.time.temporal.ChronoField.HOUR_OF_DAY;
 import static java.util.logging.Level.FINE;
 import static java.util.logging.Level.INFO;
+import static java.util.stream.Collectors.groupingBy;
 
-import java.time.temporal.ChronoField;
+import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.Collection;
 import java.util.List;
 import java.util.function.Predicate;
@@ -13,6 +14,7 @@ import java.util.logging.Logger;
 import java.util.stream.Collectors;
 import no.lwollan.passbestilling.qmatic.api.QMaticAPI;
 import no.lwollan.passbestilling.qmatic.api.QMaticHttpClient;
+import no.lwollan.passbestilling.qmatic.model.AvailableDate;
 import no.lwollan.passbestilling.qmatic.model.AvailableSlot;
 import no.lwollan.passbestilling.qmatic.model.Passkontor;
 
@@ -24,10 +26,20 @@ public class FindAvailableDatesInTheAfternoon {
         // default logging is not too pretty...
         System.setProperty("java.util.logging.SimpleFormatter.format", "[%1$tF %1$tT] %5$s %n");
 
+        int earliestHour;
+        int maxMonthsAhead;
+        if (args.length == 2) {
+            earliestHour = Integer.parseInt(args[0]);
+            maxMonthsAhead = Integer.parseInt(args[1]);
+        } else {
+            earliestHour = 16;
+            maxMonthsAhead = 6;
+        }
+
         final List<Passkontor> passkontorToBeChecked = getPasskontor();
 
         FindAvailableDatesInTheAfternoon app = new FindAvailableDatesInTheAfternoon(passkontorToBeChecked);
-        app.run();
+        app.run(earliestHour, maxMonthsAhead);
     }
 
     private final List<Passkontor> passkontorToBeChecked;
@@ -38,18 +50,31 @@ public class FindAvailableDatesInTheAfternoon {
         this.passkontorToBeChecked = passkontorsToCheck;
     }
 
-    void run() {
-        final List<AvailableSlot> availableSlots = findAvailableDates(passkontorToBeChecked, greaterThan(HOUR_OF_DAY, 16));
+    void run(int earliestHour, int maxMonthsAhead) {
+        logger.info(format("Looking for slots after %d in the coming %d monts.", earliestHour, maxMonthsAhead));
+        final List<AvailableSlot> availableSlots = findAvailableDates(
+            passkontorToBeChecked,
+            isSlotAfter(LocalTime.of(earliestHour, 0)),
+            isAvailableDateBefore(LocalDate.now().plusMonths(maxMonthsAhead)));
 
+        // Group available slots by passkontor
         availableSlots
-            .forEach(slot -> logger.log(INFO, format("Found slot at %s %s", slot.passkontor, slot.time)));
+            .stream()
+            .collect(groupingBy(slot -> slot.passkontor))
+            .forEach((kontor, slots) -> logger.log(INFO, format("Found slot at %s: %s", kontor, slots.stream()
+                .map(ss -> ss.time)
+                .sorted()
+                .collect(Collectors.toList()))));
     }
 
-    private List<AvailableSlot> findAvailableDates(List<Passkontor> passkontorToBeChecked, Predicate<AvailableSlot> slotFilter) {
+    private List<AvailableSlot> findAvailableDates
+        (
+            List<Passkontor> passkontorToBeChecked,
+            Predicate<AvailableSlot> slotFilter,
+            Predicate<AvailableDate> dateFilter) {
         return passkontorToBeChecked.stream()
-            .map(passkontor -> qmaticAPI.findAvailableDates(passkontor, 10))
-            .peek(availableDates -> logger.log(FINE, format("Found %d slots.", availableDates.size())))
-            .flatMap(Collection::stream)
+            .flatMap(passkontor -> qmaticAPI.findAvailableDates(passkontor, 10).stream())
+            .filter(dateFilter)
             .map(dateWithSlot -> qmaticAPI.findAvailableSlots(dateWithSlot.passkontor, dateWithSlot.time, dateWithSlot.slotSize))
             .flatMap(Collection::stream)
             .filter(slotFilter)
@@ -71,8 +96,12 @@ public class FindAvailableDatesInTheAfternoon {
         return List.of(sandvika, gronland);
     }
 
-    private static Predicate<AvailableSlot> greaterThan(ChronoField chronoField, int greaterThan) {
-        return slot -> slot.time.get(chronoField) > greaterThan;
+    private static Predicate<AvailableSlot> isSlotAfter(LocalTime localTime) {
+        return slot -> slot.time.toLocalTime().isAfter(localTime);
+    }
+
+    private static Predicate<AvailableDate> isAvailableDateBefore(LocalDate date) {
+        return slot -> slot.time.isBefore(date);
     }
 
 }

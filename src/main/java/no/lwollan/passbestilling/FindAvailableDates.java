@@ -18,9 +18,9 @@ import no.lwollan.passbestilling.qmatic.model.AvailableDate;
 import no.lwollan.passbestilling.qmatic.model.AvailableSlot;
 import no.lwollan.passbestilling.qmatic.model.Passkontor;
 
-public class FindAvailableDatesInTheAfternoon {
+public class FindAvailableDates {
 
-    static final Logger logger = Logger.getLogger(FindAvailableDatesInTheAfternoon.class.getName());
+    static final Logger logger = Logger.getLogger(FindAvailableDates.class.getName());
 
     public static void main(String[] args) {
         // default logging is not too pretty...
@@ -38,14 +38,14 @@ public class FindAvailableDatesInTheAfternoon {
 
         final List<Passkontor> passkontorToBeChecked = getPasskontor();
 
-        FindAvailableDatesInTheAfternoon app = new FindAvailableDatesInTheAfternoon(passkontorToBeChecked);
+        FindAvailableDates app = new FindAvailableDates(passkontorToBeChecked);
         app.run(earliestHour, maxMonthsAhead);
     }
 
     private final List<Passkontor> passkontorToBeChecked;
     private final QMaticAPI qmaticAPI;
 
-    FindAvailableDatesInTheAfternoon(List<Passkontor> passkontorsToCheck) {
+    FindAvailableDates(List<Passkontor> passkontorsToCheck) {
         this.qmaticAPI = new QMaticHttpClient();
         this.passkontorToBeChecked = passkontorsToCheck;
     }

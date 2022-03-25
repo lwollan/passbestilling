@@ -78,7 +78,7 @@
                 <manifest>
                   <addClasspath>true</addClasspath>
                   <classpathPrefix>libs/</classpathPrefix>
-                  <mainClass>no.lwollan.passbestilling.FindAvailableDatesInTheAfternoon</mainClass>
+                  <mainClass>no.lwollan.passbestilling.FindAvailableDates</mainClass>
                 </manifest>
               </archive>
             </configuration>

@@ -50,7 +50,7 @@ public class QMaticHttpClient implements QMaticAPI {
     @Override
     public Map<String, String> getConfiguration() throws QMaticAPIException {
         try {
-            logger.log(Level.INFO, "Getting configuration");
+            logger.info("Getting configuration");
             final URI availableDates = URI.create(
                 format("%s%s/configuration", BASE_URL, QMATIC_SCHEDULE_API_BASE_URL));
             final HttpResponse<String> response = HttpClient.newHttpClient()
@@ -67,7 +67,7 @@ public class QMaticHttpClient implements QMaticAPI {
     @Override
     public List<AvailableDate> findAvailableDates(Passkontor passkontor, int slotSize) throws QMaticAPIException {
         try {
-            logger.log(Level.INFO, format("Checking for available dates at %s", passkontor.name));
+            logger.info(format("Checking for available dates at %s", passkontor.name));
             final URI availableDatesURI = URI.create(
                 format("%s%s/branches/%s/dates;servicePublicId=%s;customSlotLength=%d",
                     BASE_URL, QMATIC_SCHEDULE_API_BASE_URL, passkontor.branchId,
@@ -82,7 +82,7 @@ public class QMaticHttpClient implements QMaticAPI {
                     .map(datetime -> new AvailableDate(passkontor, datetime, slotSize, now()))
                     .collect(Collectors.toList());
             } else {
-                logger.log(Level.WARNING, format(
+                logger.warning(format(
                     "Unable to read available dates from server. Status was %s response body %s",
                     apiResponse.statusCode(), apiResponse.body()));
                 return List.of();
@@ -95,7 +95,7 @@ public class QMaticHttpClient implements QMaticAPI {
     @Override
     public List<AvailableSlot> findAvailableSlots(Passkontor passkontor, LocalDate localDate, int slotSize) throws QMaticAPIException {
         try {
-            logger.log(Level.INFO, format("Checking for available slots at %s", passkontor.name));
+            logger.info(format("Checking for available slots at %s", passkontor.name));
             final URI availableTimes = URI.create(
                 format("%s%s/branches/%s/dates/%s/times;servicePublicId=%s;customSlotLength=%d",
                     BASE_URL, QMATIC_SCHEDULE_API_BASE_URL, passkontor.branchId, localDate, passkontor.onlyPassId,
@@ -122,7 +122,7 @@ public class QMaticHttpClient implements QMaticAPI {
     @Override
     public List<Politidistrikt> getPolitidistrikt() throws QMaticAPIException {
         try {
-            logger.log(Level.INFO, "Retrieving list of politidistrikt");
+            logger.info("Retrieving list of politidistrikt");
             final URI availableTimes = URI.create(
                 format("%s%s/branchGroups/", BASE_URL, QMATIC_SCHEDULE_API_BASE_URL));
 
@@ -131,7 +131,7 @@ public class QMaticHttpClient implements QMaticAPI {
             if (apiResponse.statusCode() == 200) {
                 return OBJECT_MAPPER.readValue(apiResponse.body(), new TypeReference<>() {});
             } else {
-                logger.log(Level.WARNING, format("Unable to read available dates from server. Status was %s response body %s", apiResponse.statusCode(), apiResponse.body()));
+                logger.warning(format("Unable to read available dates from server. Status was %s response body %s", apiResponse.statusCode(), apiResponse.body()));
                 return List.of();
             }
 
@@ -153,15 +153,14 @@ public class QMaticHttpClient implements QMaticAPI {
 
         @Override
         public HttpResponse<String> doGET(URI uri) throws IOException, InterruptedException {
-            logger.log(Level.INFO, format("Sending request to %s", uri));
+            logger.info(format("Sending request to %s", uri));
             final HttpResponse<String> httpResponse = HttpClient.newHttpClient()
                 .send(HttpRequest.newBuilder()
                     .uri(uri)
                     .header("Accept", " application/json")
                     .build(), BodyHandlers.ofString());
 
-            logger.log(Level.FINE,
-                format("Got response. statusCode=%d headers=%s", httpResponse.statusCode(),
+            logger.fine(format("Got response. statusCode=%d headers=%s", httpResponse.statusCode(),
                     httpResponse.headers()));
             return httpResponse;
         }

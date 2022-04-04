@@ -95,7 +95,7 @@ public class QMaticHttpClient implements QMaticAPI {
     @Override
     public List<AvailableSlot> findAvailableSlots(Passkontor passkontor, LocalDate localDate, int slotSize) throws QMaticAPIException {
         try {
-            logger.info(format("Checking for available slots at %s", passkontor.name));
+            logger.info(format("Checking for available slots at %s on %s", passkontor.name, localDate));
             final URI availableTimes = URI.create(
                 format("%s%s/branches/%s/dates/%s/times;servicePublicId=%s;customSlotLength=%d",
                     BASE_URL, QMATIC_SCHEDULE_API_BASE_URL, passkontor.branchId, localDate, passkontor.onlyPassId,
@@ -153,7 +153,7 @@ public class QMaticHttpClient implements QMaticAPI {
 
         @Override
         public HttpResponse<String> doGET(URI uri) throws IOException, InterruptedException {
-            logger.info(format("Sending request to %s", uri));
+            logger.fine(format("Sending request to %s", uri));
             final HttpResponse<String> httpResponse = HttpClient.newHttpClient()
                 .send(HttpRequest.newBuilder()
                     .uri(uri)

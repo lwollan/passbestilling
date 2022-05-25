@@ -7,17 +7,15 @@ package no.lwollan.passbestilling.qmatic.model;
 public class Passkontor {
 
     public final String branchId;
-    public final String onlyPassId;
     public final String name;
 
-    public Passkontor(String branchId, String onlyPassId, String name) {
+    public Passkontor(String branchId, String name) {
         this.branchId = branchId;
-        this.onlyPassId = onlyPassId;
         this.name = name;
     }
 
     @Override
     public String toString() {
-        return String.format("[name=%s] [branchId=%s] [onlyPassId=%s]", name, branchId,onlyPassId);
+        return String.format("[name=%s] [branchId=%s]", name, branchId);
     }
 }

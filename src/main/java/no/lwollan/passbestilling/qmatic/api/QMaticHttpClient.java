@@ -65,13 +65,12 @@ public class QMaticHttpClient implements QMaticAPI {
     }
 
     @Override
-    public List<AvailableDate> findAvailableDates(Passkontor passkontor, int slotSize) throws QMaticAPIException {
+    public List<AvailableDate> findAvailableDates(Passkontor passkontor, String serviceId, int slotSize) throws QMaticAPIException {
         try {
             logger.info(format("Checking for available dates at %s", passkontor.name));
             final URI availableDatesURI = URI.create(
                 format("%s%s/branches/%s/dates;servicePublicId=%s;customSlotLength=%d",
-                    BASE_URL, QMATIC_SCHEDULE_API_BASE_URL, passkontor.branchId,
-                    passkontor.onlyPassId, slotSize));
+                    BASE_URL, QMATIC_SCHEDULE_API_BASE_URL, passkontor.branchId, serviceId, slotSize));
 
             final HttpResponse<String> apiResponse = httpSupport.doGET(availableDatesURI);
 
@@ -93,12 +92,12 @@ public class QMaticHttpClient implements QMaticAPI {
     }
 
     @Override
-    public List<AvailableSlot> findAvailableSlots(Passkontor passkontor, LocalDate localDate, int slotSize) throws QMaticAPIException {
+    public List<AvailableSlot> findAvailableSlots(Passkontor passkontor, String serviceId, LocalDate localDate, int slotSize) throws QMaticAPIException {
         try {
             logger.info(format("Checking for available slots at %s on %s", passkontor.name, localDate));
             final URI availableTimes = URI.create(
                 format("%s%s/branches/%s/dates/%s/times;servicePublicId=%s;customSlotLength=%d",
-                    BASE_URL, QMATIC_SCHEDULE_API_BASE_URL, passkontor.branchId, localDate, passkontor.onlyPassId,
+                    BASE_URL, QMATIC_SCHEDULE_API_BASE_URL, passkontor.branchId, localDate, serviceId,
                     slotSize));
 
             final HttpResponse<String> apiResponse = httpSupport.doGET(availableTimes);

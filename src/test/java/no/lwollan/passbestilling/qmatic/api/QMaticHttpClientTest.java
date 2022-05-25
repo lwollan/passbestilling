@@ -22,7 +22,7 @@ class QMaticHttpClientTest {
             .filter(p -> Objects.equals(57, p.getId()))
             .map(Politidistrikt::getBranches)
             .flatMap(Collection::stream)
-            .map(p -> new Passkontor(p.get("id").toString(), null, p.get("name").toString()))
+            .map(p -> new Passkontor(p.get("id").toString(), p.get("name").toString()))
             .collect(Collectors.toList());
 
         System.out.println(passkontors);

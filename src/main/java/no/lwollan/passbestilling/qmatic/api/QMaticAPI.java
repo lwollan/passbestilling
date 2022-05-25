@@ -26,19 +26,22 @@ public interface QMaticAPI {
 
     /**
      * Returns list of dates where there are available slots for a given passkontor.
+     *
      * @param passkontor which passkontor to query
-     * @param slotSize size of slot to find, 10 is used in the web page
+     * @param serviceId type of service to query for
+     * @param slotSize   size of slot to find, 10 is used in the web page
      */
-    List<AvailableDate> findAvailableDates(Passkontor passkontor, int slotSize) throws QMaticAPIException;
+    List<AvailableDate> findAvailableDates(Passkontor passkontor, String serviceId, int slotSize) throws QMaticAPIException;
 
     /**
      * Returns a list of time slots for a given date.
      *
      * @param passkontor which passkontor to query
-     * @param localDate data to query
-     * @param slotSize size of slot to find, 10 is used in the web page
+     * @param serviceId type of service to query for
+     * @param localDate  data to query
+     * @param slotSize   size of slot to find, 10 is used in the web page
      */
-    List<AvailableSlot> findAvailableSlots(Passkontor passkontor, LocalDate localDate, int slotSize) throws QMaticAPIException;
+    List<AvailableSlot> findAvailableSlots(Passkontor passkontor, String serviceId, LocalDate localDate, int slotSize) throws QMaticAPIException;
 
     /**
      * Wrapper for any exception during communication with qmatic api.

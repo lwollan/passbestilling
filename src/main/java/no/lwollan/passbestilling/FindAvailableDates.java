@@ -18,6 +18,7 @@ import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 import static java.lang.String.format;
+import static java.util.Comparator.comparing;
 import static java.util.logging.Level.FINE;
 import static java.util.logging.Level.INFO;
 import static java.util.stream.Collectors.groupingBy;
@@ -76,6 +77,7 @@ public class FindAvailableDates {
             properties.load(propertiesStream);
             return properties.keySet().stream()
                     .map(key -> new Passkontor(key.toString(), properties.getProperty(key.toString())))
+                    .sorted(comparing(kontor -> kontor.name))
                     .collect(Collectors.toList());
         } catch (IOException e) {
             throw new RuntimeException(e);

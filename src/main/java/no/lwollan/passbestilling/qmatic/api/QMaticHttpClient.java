@@ -3,7 +3,6 @@ package no.lwollan.passbestilling.qmatic.api;
 import static java.lang.String.format;
 import static java.time.LocalDate.from;
 import static java.time.LocalDateTime.now;
-import static no.lwollan.passbestilling.qmatic.api.QMaticHttpClient.HTTPSupport.doGET;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -24,6 +23,7 @@ import java.util.stream.Collectors;
 import no.lwollan.passbestilling.qmatic.model.AvailableDate;
 import no.lwollan.passbestilling.qmatic.model.AvailableSlot;
 import no.lwollan.passbestilling.qmatic.model.Passkontor;
+import no.lwollan.passbestilling.qmatic.model.Politidistrikt;
 
 public class QMaticHttpClient implements QMaticAPI {
 
@@ -37,10 +37,20 @@ public class QMaticHttpClient implements QMaticAPI {
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
     private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyy-MM-dd HH:mm");
 
+    private final HttpSupport httpSupport;
+
+    public QMaticHttpClient() {
+        httpSupport = new OnlineHttpSupport();
+    }
+
+    QMaticHttpClient(final HttpSupport httpSupport) {
+        this.httpSupport = httpSupport;
+    }
+
     @Override
     public Map<String, String> getConfiguration() throws QMaticAPIException {
         try {
-            logger.log(Level.INFO, "Getting configuration");
+            logger.info("Getting configuration");
             final URI availableDates = URI.create(
                 format("%s%s/configuration", BASE_URL, QMATIC_SCHEDULE_API_BASE_URL));
             final HttpResponse<String> response = HttpClient.newHttpClient()
@@ -55,15 +65,14 @@ public class QMaticHttpClient implements QMaticAPI {
     }
 
     @Override
-    public List<AvailableDate> findAvailableDates(Passkontor passkontor, int slotSize) throws QMaticAPIException {
+    public List<AvailableDate> findAvailableDates(Passkontor passkontor, String serviceId, int slotSize) throws QMaticAPIException {
         try {
-            logger.log(Level.INFO, format("Checking for available dates at %s", passkontor.name));
+            logger.info(format("Checking for available dates at %s", passkontor.name));
             final URI availableDatesURI = URI.create(
                 format("%s%s/branches/%s/dates;servicePublicId=%s;customSlotLength=%d",
-                    BASE_URL, QMATIC_SCHEDULE_API_BASE_URL, passkontor.branchId,
-                    passkontor.onlyPassId, slotSize));
+                    BASE_URL, QMATIC_SCHEDULE_API_BASE_URL, passkontor.branchId, serviceId, slotSize));
 
-            final HttpResponse<String> apiResponse = doGET(availableDatesURI);
+            final HttpResponse<String> apiResponse = httpSupport.doGET(availableDatesURI);
 
             if (apiResponse.statusCode() == 200) {
                 return OBJECT_MAPPER.<List<Map<String, String>>>readValue(apiResponse.body(), new TypeReference<>() {})
@@ -72,7 +81,7 @@ public class QMaticHttpClient implements QMaticAPI {
                     .map(datetime -> new AvailableDate(passkontor, datetime, slotSize, now()))
                     .collect(Collectors.toList());
             } else {
-                logger.log(Level.WARNING, format(
+                logger.warning(format(
                     "Unable to read available dates from server. Status was %s response body %s",
                     apiResponse.statusCode(), apiResponse.body()));
                 return List.of();
@@ -83,15 +92,15 @@ public class QMaticHttpClient implements QMaticAPI {
     }
 
     @Override
-    public List<AvailableSlot> findAvailableSlots(Passkontor passkontor, LocalDate localDate, int slotSize) throws QMaticAPIException {
+    public List<AvailableSlot> findAvailableSlots(Passkontor passkontor, String serviceId, LocalDate localDate, int slotSize) throws QMaticAPIException {
         try {
-            logger.log(Level.INFO, format("Checking for available slots at %s", passkontor.name));
+            logger.info(format("Checking for available slots at %s on %s", passkontor.name, localDate));
             final URI availableTimes = URI.create(
                 format("%s%s/branches/%s/dates/%s/times;servicePublicId=%s;customSlotLength=%d",
-                    BASE_URL, QMATIC_SCHEDULE_API_BASE_URL, passkontor.branchId, localDate, passkontor.onlyPassId,
+                    BASE_URL, QMATIC_SCHEDULE_API_BASE_URL, passkontor.branchId, localDate, serviceId,
                     slotSize));
 
-            final HttpResponse<String> apiResponse = doGET(availableTimes);
+            final HttpResponse<String> apiResponse = httpSupport.doGET(availableTimes);
 
             if (apiResponse.statusCode() == 200) {
                 return OBJECT_MAPPER.<List<Map<String, String>>>readValue(apiResponse.body(), new TypeReference<>() {})
@@ -109,25 +118,52 @@ public class QMaticHttpClient implements QMaticAPI {
         }
     }
 
+    @Override
+    public List<Politidistrikt> getPolitidistrikt() throws QMaticAPIException {
+        try {
+            logger.info("Retrieving list of politidistrikt");
+            final URI availableTimes = URI.create(
+                format("%s%s/branchGroups/", BASE_URL, QMATIC_SCHEDULE_API_BASE_URL));
+
+            final HttpResponse<String> apiResponse = httpSupport.doGET(availableTimes);
+
+            if (apiResponse.statusCode() == 200) {
+                return OBJECT_MAPPER.readValue(apiResponse.body(), new TypeReference<>() {});
+            } else {
+                logger.warning(format("Unable to read available dates from server. Status was %s response body %s", apiResponse.statusCode(), apiResponse.body()));
+                return List.of();
+            }
+
+        } catch (Exception e) {
+            throw new QMaticAPIException("Failed to get findAvailableSlots.", e);
+        }
+    }
+
     private static LocalDateTime toLocalDateTime(String date, String time) {
         return LocalDateTime.from(DATE_TIME_FORMATTER.parse(format("%s %s", date, time)));
     }
 
-    static class HTTPSupport {
+    public interface HttpSupport {
 
-        static HttpResponse<String> doGET(URI uri) throws IOException, InterruptedException {
-            logger.log(Level.INFO, format("Sending request to %s", uri));
+        HttpResponse<String> doGET(URI uri) throws IOException, InterruptedException;
+    }
+
+     static class OnlineHttpSupport implements HttpSupport {
+
+        @Override
+        public HttpResponse<String> doGET(URI uri) throws IOException, InterruptedException {
+            logger.fine(format("Sending request to %s", uri));
             final HttpResponse<String> httpResponse = HttpClient.newHttpClient()
                 .send(HttpRequest.newBuilder()
                     .uri(uri)
                     .header("Accept", " application/json")
                     .build(), BodyHandlers.ofString());
 
-            logger.log(Level.FINE,
-                format("Got response. statusCode=%d headers=%s", httpResponse.statusCode(),
+            logger.fine(format("Got response. statusCode=%d headers=%s", httpResponse.statusCode(),
                     httpResponse.headers()));
             return httpResponse;
         }
 
     }
+
 }

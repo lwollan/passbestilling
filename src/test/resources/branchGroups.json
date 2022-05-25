@@ -1,0 +1,1697 @@
+[
+  {
+    "branchIds": [
+      3,
+      14,
+      34
+    ],
+    "branches": [
+      {
+        "addressCity": "Arendal",
+        "addressCountry": "Norway",
+        "addressLine1": "Åsbieveien 39",
+        "addressZip": "4848",
+        "custom": "{\"names\":{\"nb\":\"Arendal og Froland politistasjon\",\"en\":\"Arendal og Froland politistasjon\"}}",
+        "id": "888a8097cecf2eccb6c811e8a2d86ebfd272d6fdb2f59c8afd8a4d8042cfd898",
+        "internalId": 3,
+        "name": "Arendal og Froland politistasjon",
+        "qpId": "3",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Farsund",
+        "addressCountry": "",
+        "addressLine1": "Lauervik Terrasse 18",
+        "addressLine2": "",
+        "addressZip": "4550",
+        "custom": "{\"names\":{\"nb\":\"Farsund og Lyngdal politistasjon \",\"en\":\"Farsund og Lyngdal politistasjon \"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "email": "",
+        "id": "aaa47bdec3a7a5ca76b6ef38e9991caf849eca10a3a0841c5abaa70fffcea812",
+        "internalId": 14,
+        "name": "Farsund og Lyngdal politistasjon",
+        "phone": "",
+        "qpId": "14",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Kristiansand",
+        "addressLine1": "Tollbodgata 45",
+        "addressZip": "4614",
+        "custom": "{\"names\":{\"nb\":\"Kristiansand politistasjon\",\"en\":\"Kristiansand politistasjon\"}}",
+        "id": "68f03a0e2ec3c81ca34767e587b5ec7519204b03bb41ed1b749ecb6067a2d016",
+        "internalId": 34,
+        "name": "Kristiansand politistasjon",
+        "qpId": "34",
+        "timeZone": "Europe/Berlin"
+      }
+    ],
+    "fullName": " /Agder politidistrikt",
+    "id": 52,
+    "name": "Agder politidistrikt",
+    "subGroupIds": []
+  },
+  {
+    "branchIds": [
+      2,
+      26,
+      32,
+      67,
+      71,
+      78
+    ],
+    "branches": [
+      {
+        "addressCity": "Alta",
+        "addressLine1": "Labyrinten 1",
+        "addressZip": "9510",
+        "custom": "{\"names\":{\"nb\":\"Alta politistasjon \",\"en\":\"Alta politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "3279363f9212c599307e3fdc1eae5cb3a9eed1eca5c2b42c13878c39a2328326",
+        "internalId": 2,
+        "name": "Alta politistasjon",
+        "qpId": "2",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Hammerfest",
+        "addressLine1": "Parkgata 16",
+        "addressZip": "9600",
+        "custom": "{\"names\":{\"nb\":\"Hammerfest politistasjon\",\"en\":\"Hammerfest politistasjon\"}}",
+        "id": "86ee90efe98936ecd296400637aad2dfbf024d05445d37073ddf18909a54e31a",
+        "internalId": 26,
+        "name": "Hammerfest politistasjon",
+        "qpId": "26",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Kirkenes",
+        "addressLine1": "Rådhussvingen 1",
+        "addressZip": "9900",
+        "custom": "{\"names\":{\"nb\":\"Kirkenes politistasjon\",\"en\":\"Kirkenes politistasjon\"}}",
+        "id": "642d111a334724d19e7a45275bd82cf549c2ec161e8dc59bc79f5c1e7b585b02",
+        "internalId": 32,
+        "name": "Kirkenes politistasjon",
+        "qpId": "32",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Vadsø",
+        "addressLine1": "Damsveien 1",
+        "addressZip": "9800",
+        "custom": "{\"names\":{\"nb\":\"Vadsø politistasjon\",\"en\":\"Vadsø politistasjon\"}}",
+        "id": "7f245e3dc515623718e39be3dfde6eaeb1055bbede600c7f31222c5211606c61",
+        "internalId": 67,
+        "name": "Vadsø politistasjon",
+        "qpId": "67",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Lakselv",
+        "addressLine1": "Rådhuset",
+        "addressLine2": "Laatasveien 3800",
+        "addressZip": "9700",
+        "custom": "{\"names\":{\"nb\":\"Porsanger politistasjon\",\"en\":\"Porsanger politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "19d6ac44b86750231306a49518146d7a0bba28bcac9bfb040a9672bd9c7dd51a",
+        "internalId": 71,
+        "name": "Porsanger politistasjon",
+        "qpId": "71",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Tana",
+        "addressLine1": "Røbergveien 2",
+        "addressZip": "9845",
+        "custom": "{\"names\":{\"nb\":\"Tana politistasjon\",\"en\":\"Tana politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "fddce9c2769251cb9aa2704ad8f4ce8e5296516e4889e686d9fbc441f444f2ef",
+        "internalId": 78,
+        "name": "Tana politistasjon",
+        "qpId": "78",
+        "timeZone": "Europe/Berlin"
+      }
+    ],
+    "fullName": " /Finnmark politidistrikt",
+    "id": 53,
+    "name": "Finnmark politidistrikt",
+    "subGroupIds": []
+  },
+  {
+    "branchIds": [
+      12,
+      13,
+      20,
+      22,
+      25,
+      33,
+      36,
+      50,
+      65
+    ],
+    "branches": [
+      {
+        "addressCity": "Elverum",
+        "addressLine1": "Elvarheimgata 10",
+        "addressZip": "2418",
+        "custom": "{\"names\":{\"nb\":\"Elverum politistasjon\",\"en\":\"Elverum politistasjon\"}}",
+        "id": "12b2d60319641ea9240b00a4baa7568988b7af327d8ab5a5596f2a2ef496f22a",
+        "internalId": 12,
+        "name": "Elverum politistasjon",
+        "qpId": "12",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Fagernes ",
+        "addressLine1": "Jernbanevegen",
+        "addressZip": "2900",
+        "custom": "{\"names\":{\"nb\":\"Fagernes politistasjon \",\"en\":\"Fagernes politistasjon \"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "1da3d407da965ec0f39af67d36275f4b7106c7a5ea5b386209b9ec843ec7ac5e",
+        "internalId": 13,
+        "name": "Fagernes politistasjon",
+        "qpId": "13",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Gjøvik",
+        "addressLine1": "Strandgata 36",
+        "addressZip": "2821",
+        "custom": "{\"names\":{\"nb\":\"Gjøvik politistasjon\",\"en\":\"Gjøvik politistasjon\"}}",
+        "id": "444a3fac353a44ab43bdc6d2b832a25d4ade4230dde93db2f92215d7faabb554",
+        "internalId": 20,
+        "name": "Gjøvik politistasjon",
+        "qpId": "20",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Gran",
+        "addressLine1": "Morstadvegen 37",
+        "addressZip": "2750",
+        "custom": "{\"names\":{\"nb\":\"Gran politistasjon \",\"en\":\"Gran politistasjon \"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "65f59672ce9b839e2ebfa29137da0c7843ed4b39d401ed47c623e2c2f23697aa",
+        "internalId": 22,
+        "name": "Gran politistasjon",
+        "qpId": "22",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Hamar",
+        "addressLine1": "Vangsvegen 155",
+        "addressZip": "2321",
+        "custom": "{\"names\":{\"nb\":\"Hamar politistasjon\",\"en\":\"Hamar politistasjon\"}}",
+        "id": "a4bbbc39e65113ba59720574294a97734d3e809b5c53d6decc9be5dbdea65a56",
+        "internalId": 25,
+        "name": "Hamar politistasjon",
+        "qpId": "25",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Kongsvinger",
+        "addressLine1": "Parkvegen 12",
+        "addressZip": "2212",
+        "custom": "{\"names\":{\"nb\":\"Kongsvinger politistasjon\",\"en\":\"Kongsvinger politistasjon\"}}",
+        "id": "cfdc05f9ee15105147bba99804ee747092517b5be0c7676fd3816cd4238308f0",
+        "internalId": 33,
+        "name": "Kongsvinger politistasjon",
+        "qpId": "33",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Lillehammer",
+        "addressLine1": "Storgata 129",
+        "addressZip": "2615",
+        "custom": "{\"names\":{\"nb\":\"Lillehammer politistasjon\",\"en\":\"Lillehammer politistasjon\"}}",
+        "id": "a2a38ea1aaf8a6f7ff54c508993a691a2992ed049048fff085d069476ab7d136",
+        "internalId": 36,
+        "name": "Lillehammer politistasjon",
+        "qpId": "36",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Otta",
+        "addressLine1": "Ole Dahlsgate 3B",
+        "addressZip": "2670",
+        "custom": "{\"names\":{\"nb\":\"Otta politistasjon \",\"en\":\"Otta politistasjon \"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "fb7d91b9580c2bc0f3dd6320bc0c90b28d76d8a3cfb77ab312599f678028e4f7",
+        "internalId": 50,
+        "name": "Otta politistasjon",
+        "qpId": "50",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Tynset",
+        "addressLine1": "Ringveien 36A",
+        "addressZip": "2500",
+        "custom": "{\"names\":{\"nb\":\"Tynset politistasjon \",\"en\":\"Tynset politistasjon \"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "5272fd5b368f4de0553e32502aaafc54a93c24d8ebe78828678ad45d40914410",
+        "internalId": 65,
+        "name": "Tynset politistasjon",
+        "qpId": "65",
+        "timeZone": "Europe/Berlin"
+      }
+    ],
+    "fullName": " /Innlandet politidistrikt",
+    "id": 54,
+    "name": "Innlandet politidistrikt",
+    "subGroupIds": []
+  },
+  {
+    "branchIds": [
+      1,
+      35,
+      40,
+      62,
+      66,
+      68,
+      72,
+      74
+    ],
+    "branches": [
+      {
+        "addressCity": "Ålesund",
+        "addressCountry": "",
+        "addressLine1": "Nedre Standgate 50",
+        "addressLine2": "",
+        "addressZip": "6005",
+        "custom": "{\"names\":{\"nb\":\"Ålesund politistasjon\",\"en\":\"Ålesund politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "email": "",
+        "id": "8014a727faa2b1779bf9f458ae2614f4560b776a18a5549aace8fa46ee589803",
+        "internalId": 1,
+        "name": "Ålesund politistasjon",
+        "phone": "",
+        "qpId": "1",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Kristiansund",
+        "addressLine1": "Storgata 43",
+        "addressZip": "6508",
+        "custom": "{\"names\":{\"nb\":\"Kristiansund politistasjon\",\"en\":\"Kristiansund politistasjon\"}}",
+        "id": "365455ec9b2ceb64162009398f03c86535ed472158de6aca5bd54203a2ce1822",
+        "internalId": 35,
+        "name": "Kristiansund politistasjon",
+        "qpId": "35",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Molde",
+        "addressLine1": "Strandgata 2",
+        "addressZip": "6415",
+        "custom": "{\"names\":{\"nb\":\"Molde politistasjon\",\"en\":\"Molde politistasjon\"}}",
+        "id": "7061dd329fe740521cf2f695221eed61d664049076fc9b3323b2ca784b0d2017",
+        "internalId": 40,
+        "name": "Molde politistasjon",
+        "qpId": "40",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Sykkylven",
+        "addressCountry": "",
+        "addressLine1": "Skulevegen 11",
+        "addressLine2": "",
+        "addressZip": "6230",
+        "custom": "{\"names\":{\"nb\":\"Sykkylven politistasjon\",\"en\":\"Sykkylven politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "email": "",
+        "id": "e1ac01e9138e4d985387c08b04462c6065f44e24d8434fb6adc5cd7d98ba5df2",
+        "internalId": 62,
+        "name": "Sykkylven politistasjon",
+        "phone": "",
+        "qpId": "62",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Ulsteinvik",
+        "addressLine1": "Saunesvegen 10",
+        "addressZip": "6065",
+        "custom": "{\"names\":{\"nb\":\"Ulstein og Hareid politistasjon\",\"en\":\"Ulstein og Hareid politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "8729694f74816364f5db30bfce214cd4bc7d1f0b505c06c32850547097a78d03",
+        "internalId": 66,
+        "name": "Ulstein og Hareid politistasjon",
+        "qpId": "66",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Hovedbygda",
+        "addressLine1": "Torvmyrane 11B",
+        "addressZip": "6160",
+        "custom": "{\"names\":{\"nb\":\"Volda og Ørsta politistasjon\",\"en\":\"Volda og Ørsta politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "5b3874d74f38e4cb5f2d64d9de5fddb6ce092980a0c49d5ef89eae0eeda2a268",
+        "internalId": 68,
+        "name": "Volda og Ørsta politistasjon",
+        "qpId": "68",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Sunndalsøra",
+        "addressLine1": "Industriveien 92",
+        "addressZip": "6600",
+        "custom": "{\"names\":{\"nb\":\"Sunndal politistasjon\",\"en\":\"Sunndal politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "email": "",
+        "id": "df0b6026a36bab2bea29216f1564eeebd539b8c6c78761a05249ee643a22847c",
+        "internalId": 72,
+        "name": "Sunndal politistasjon",
+        "phone": "",
+        "qpId": "72",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Surnadal",
+        "addressLine1": "Skeivegen 3",
+        "addressZip": "6656",
+        "custom": "{\"names\":{\"nb\":\"Surnadal politistasjon \",\"en\":\"Surnadal politistasjon \"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "03779b424121f91216ece5b5e2256c89906408012f8ca48f3d87de194b41c00c",
+        "internalId": 74,
+        "name": "Surnadal politistasjon",
+        "qpId": "74",
+        "timeZone": "Europe/Berlin"
+      }
+    ],
+    "fullName": " /More og Romsdal politidistrikt",
+    "id": 55,
+    "name": "More og Romsdal politidistrikt",
+    "subGroupIds": []
+  },
+  {
+    "branchIds": [
+      7,
+      8,
+      39,
+      41,
+      43,
+      55,
+      61,
+      75,
+      76
+    ],
+    "branches": [
+      {
+        "addressCity": "Bodø",
+        "addressLine1": "Kongensgate 81",
+        "addressZip": "8006",
+        "custom": "{\"names\":{\"nb\":\"Bodø politistasjon\",\"en\":\"Bodø politistasjon\"}}",
+        "id": "f52ba1f28907d88cc45c9453daa273148c2f990808a1eba8a6f507deef4a723a",
+        "internalId": 7,
+        "name": "Bodø politistasjon",
+        "qpId": "7",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Brønnøysund",
+        "addressLine1": "Russesletta 3",
+        "addressZip": "8907",
+        "custom": "{\"names\":{\"nb\":\"Brønnøy og Vevelstad politistasjon\",\"en\":\"Brønnøy og Vevelstad politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "email": "",
+        "id": "282ca2e6afc0a69740a3a8d8b0f6087ae441da6cc1ea1c3d1303d94037091194",
+        "internalId": 8,
+        "name": "Brønnøy og Vevelstad politistasjon",
+        "phone": "",
+        "qpId": "8",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Mo i Rana",
+        "addressLine1": "Midtre gate 9",
+        "addressZip": "8626",
+        "custom": "{\"names\":{\"nb\":\"Mo I Rana politistasjon\",\"en\":\"Mo I Rana politistasjon\"}}",
+        "id": "4aa7d11760d8767f8e9ee79a361c4d1ac9f7857e104bb0a11b07a3a74a8ef654",
+        "internalId": 39,
+        "name": "Mo I Rana politistasjon",
+        "qpId": "39",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Mosjøen",
+        "addressLine1": "Skjervgata 41",
+        "addressZip": "8656",
+        "custom": "{\"names\":{\"nb\":\"Mosjøen politistasjon\",\"en\":\"Mosjøen politistasjon\"}}",
+        "id": "a5eebb15f706873c7399e7d52f0c98d400fe8e0ef4ac3ea875124e4012585466",
+        "internalId": 41,
+        "name": "Mosjøen politistasjon",
+        "qpId": "41",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Narvik",
+        "addressLine1": "Kongens gate 14-18",
+        "addressZip": "8514",
+        "custom": "{\"names\":{\"nb\":\"Narvik politistasjon\",\"en\":\"Narvik politistasjon\"}}",
+        "id": "71d39130b055229bc22fe182dba7204785552181a54b5b4bd710fd89287394b8",
+        "internalId": 43,
+        "name": "Narvik politistasjon",
+        "qpId": "43",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Sortland",
+        "addressLine1": "Strandgata 37",
+        "addressZip": "8400",
+        "custom": "{\"names\":{\"nb\":\"Sortland politistasjon\",\"en\":\"Sortland politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "85def6f1c2ba1e1076cba148d827e9b3a67856e1ec1acc955d5cf982d551eb09",
+        "internalId": 55,
+        "name": "Sortland politistasjon",
+        "qpId": "55",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Svolvær",
+        "addressLine1": "Vorsetøyveien 17",
+        "addressZip": "8300",
+        "custom": "{\"names\":{\"nb\":\"Svolvær politistasjon\",\"en\":\"Svolvær politistasjon\"}}",
+        "id": "48b70ed5ac92129401b79739660cab3f5879782b90175455b4a9da490b025aec",
+        "internalId": 61,
+        "name": "Svolvær politistasjon",
+        "qpId": "61",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Sandnessjøen",
+        "addressLine1": "Torolv Kveldsulvsons gate 27",
+        "addressZip": "8800",
+        "custom": "{\"names\":{\"nb\":\"Alstahaug og Leirfjord politistasjon \",\"en\":\"Alstahaug og Leirfjord politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "87b817ccaa51b6f29256aeb0a1ab883b47e6a08434ebf8813b4e61d413e5199c",
+        "internalId": 75,
+        "name": "Alstahaug og Leirfjord politistasjon",
+        "qpId": "75",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Fauske",
+        "addressLine1": "Storgata 83",
+        "addressZip": "8201",
+        "custom": "{\"names\":{\"nb\":\"Fauske politistasjon\",\"en\":\"Fauske politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "eade94a3087e41510ecf889df3995032fee74831c13c868ade0b23ef40be04f1",
+        "internalId": 76,
+        "name": "Fauske politistasjon",
+        "qpId": "76",
+        "timeZone": "Europe/Berlin"
+      }
+    ],
+    "fullName": " /Nordland politidistrikt",
+    "id": 56,
+    "name": "Nordland politidistrikt",
+    "subGroupIds": []
+  },
+  {
+    "branchIds": [
+      4,
+      24
+    ],
+    "branches": [
+      {
+        "addressCity": "Sandvika",
+        "addressLine1": "Kjørboveien 33",
+        "addressZip": "1337",
+        "custom": "{\"names\":{\"nb\":\"Bærum politistasjon\",\"en\":\"Bærum politistasjon\"}}",
+        "id": "e8cfd353ad2e1f03432faa6d1c1ea3401102eb0bf7e8f9e9fe0e2607f867a8a0",
+        "internalId": 4,
+        "name": "Bærum politistasjon",
+        "qpId": "4",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Oslo",
+        "addressLine1": "Grønlandsleiret 44",
+        "addressZip": "0190",
+        "custom": "{\"names\":{\"nb\":\"Grønland politistasjon\",\"en\":\"Grønland politistasjon\"}}",
+        "id": "c4afbbf5b8fea8ae5b5749370eaa26ae1c405797f39e8b6bfec5f3f96255451e",
+        "internalId": 24,
+        "name": "Grønland politistasjon",
+        "qpId": "24",
+        "timeZone": "Europe/Berlin"
+      }
+    ],
+    "fullName": " /Oslo politidistrikt",
+    "id": 57,
+    "name": "Oslo politidistrikt",
+    "subGroupIds": []
+  },
+  {
+    "branchIds": [
+      73
+    ],
+    "branches": [
+      {
+        "addressCity": "Longyearbyen",
+        "addressLine1": "Vei 309 nr 4",
+        "addressZip": "9170",
+        "custom": "{\"names\":{\"nb\":\"Sysselmesteren på Svalbard\",\"en\":\"Sysselmesteren på Svalbard\"}}",
+        "email": "",
+        "id": "14b88262bddc845e69546fe29ed75e0d8d5000e076becafcb6dd6fa65afb9917",
+        "internalId": 73,
+        "name": "Sysselmesteren på Svalbard",
+        "phone": "",
+        "qpId": "73",
+        "timeZone": "Europe/Berlin"
+      }
+    ],
+    "fullName": " /Svalbard",
+    "id": 58,
+    "name": "Svalbard",
+    "subGroupIds": []
+  },
+  {
+    "branchIds": [
+      11,
+      29,
+      52,
+      53,
+      57,
+      60,
+      70
+    ],
+    "branches": [
+      {
+        "addressCity": "Egersund",
+        "addressLine1": "Strandgaten 18",
+        "addressZip": "4370",
+        "custom": "{\"names\":{\"nb\":\"Eigersund politistasjon\",\"en\":\"Eigersund politistasjon\"}}",
+        "email": "",
+        "id": "8ff00779c318c471c0d414cd1f055e1849779b1887131129362daa1ae82b116b",
+        "internalId": 11,
+        "name": "Eigersund politistasjon",
+        "phone": "",
+        "qpId": "11",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Haugesund",
+        "addressLine1": "Sørhauggata 128",
+        "addressZip": "5527",
+        "custom": "{\"names\":{\"nb\":\"Politiets Forvaltningssenter i Haugesund\",\"en\":\"Politiets Forvaltningssenter i Haugesund\"}}",
+        "email": "",
+        "id": "a3a8a5a4e819768c11bc634656e559f2b94a2f221543c2964e30cd94b0d389fa",
+        "internalId": 29,
+        "name": "Politiets Forvaltningssenter i Haugesund",
+        "phone": "",
+        "qpId": "29",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Randaberg",
+        "addressLine1": "Randabergveien 300B",
+        "addressZip": "4070",
+        "custom": "{\"names\":{\"nb\":\"Randaberg politistasjon\",\"en\":\"Randaberg politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "140c6b350cf1d4175f6aa11f1e3a0d4e9c6af47520e1a1cbd0cc5ab9fd1a4cd6",
+        "internalId": 52,
+        "name": "Randaberg politistasjon",
+        "qpId": "52",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Sandnes",
+        "addressLine1": "Gjesdalsbakken 7",
+        "addressZip": "4306",
+        "custom": "{\"names\":{\"nb\":\"Sandnes politistasjon\",\"en\":\"Sandnes politistasjon\"}}",
+        "id": "f9753b40458d422073a333656ab704b027933bf91dc32914b85486b85a15ffda",
+        "internalId": 53,
+        "name": "Sandnes politistasjon",
+        "qpId": "53",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Sola",
+        "addressLine1": "Flyplassvegen 230",
+        "addressZip": "4055",
+        "custom": "{\"names\":{\"nb\":\"Stavanger lufthavn Sola\",\"en\":\"Stavanger lufthavn Sola\"}}",
+        "id": "520e946da48c4bacfd07370019d42c916c2c740c5aa72f1c2643a6e8aad8a1e1",
+        "internalId": 57,
+        "name": "Stavanger lufthavn Sola",
+        "qpId": "57",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Stord",
+        "addressLine1": "Vabakkjen 7",
+        "addressZip": "5411",
+        "custom": "{\"names\":{\"nb\":\"Stord politistasjon\",\"en\":\"Stord politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "7eb5437e98af3d28a65b1c6df36ca2f548885d66b2bfb911fa4c38e3d8f6c3d4",
+        "internalId": 60,
+        "name": "Stord politistasjon",
+        "qpId": "60",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Ølen",
+        "addressLine1": "Dreganesvegen 8",
+        "addressZip": "5580",
+        "custom": "{\"names\":{\"nb\":\"Etne og Vindafjord politistasjon\",\"en\":\"Etne og Vindafjord politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "0658e32534f0e4ceeff77edeffae2e641c40cedc6a9edc27c40d260968e07f23",
+        "internalId": 70,
+        "name": "Etne og Vindafjord politistasjon",
+        "qpId": "70",
+        "timeZone": "Europe/Berlin"
+      }
+    ],
+    "fullName": " /Sør-Vest politidistrikt",
+    "id": 59,
+    "name": "Sør-Vest politidistrikt",
+    "subGroupIds": []
+  },
+  {
+    "branchIds": [
+      9,
+      23,
+      31,
+      38,
+      46,
+      51,
+      79
+    ],
+    "branches": [
+      {
+        "addressCity": "Drammen",
+        "addressLine1": "Grønland 36",
+        "addressZip": "3045",
+        "custom": "{\"names\":{\"nb\":\"Drammen politistasjon\",\"en\":\"Drammen politistasjon\"}}",
+        "id": "0ea2394ac17c4220b28c724c32ef0284ef2405b1df7fdbab24e98d699545b24a",
+        "internalId": 9,
+        "name": "Drammen politistasjon",
+        "qpId": "9",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Skien",
+        "addressLine1": "Myren 7",
+        "addressZip": "3718",
+        "custom": "{\"names\":{\"nb\":\"Grenland politistasjon\",\"en\":\"Grenland politistasjon\"}}",
+        "id": "335abadd312dc5db2bf1031cea65e0cc4f93a5f3f96bfc794d7e874ffda0d9cc",
+        "internalId": 23,
+        "name": "Grenland politistasjon",
+        "qpId": "23",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Hønefoss",
+        "addressLine1": "Askveien 4",
+        "addressZip": "3504",
+        "custom": "{\"names\":{\"nb\":\"Hønefoss politistasjon\",\"en\":\"Hønefoss politistasjon\"}}",
+        "email": "post.sor-ost@politiet.no",
+        "id": "5aff634708c9e2ad46ebc0b2a8eda7a21cc0b277b0ebbed29fbb16c1814a0911",
+        "internalId": 31,
+        "name": "Hønefoss politistasjon",
+        "phone": "02800",
+        "qpId": "31",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Gol",
+        "addressLine1": "Sentrumsvegen 58",
+        "addressZip": "3550",
+        "custom": "{\"names\":{\"nb\":\"Midtre Hallingdal politistasjon\",\"en\":\"Midtre Hallingdal politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "email": "post.sor-ost@politiet.no",
+        "id": "a8022e3e8f1bcb2ceb91c214e4f6eaa9f6fbf9e74c4166f2268935da0fd86792",
+        "internalId": 38,
+        "name": "Midtre Hallingdal politistasjon",
+        "phone": "02800",
+        "qpId": "38",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Notodden",
+        "addressLine1": "Heddalsveien 28",
+        "addressZip": "3674",
+        "custom": "{\"names\":{\"nb\":\"Notodden politistasjon\",\"en\":\"Notodden politistasjon\"}}",
+        "email": "post.sor-ost@politiet.no",
+        "id": "c4dfc82abc32b9e5994d902cd42ed0eac1d8e0513a369b841b021cf1e21b5edb",
+        "internalId": 46,
+        "name": "Notodden politistasjon",
+        "phone": "02800",
+        "qpId": "46",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Stokke",
+        "addressLine1": "Stokkeveien 55",
+        "addressZip": "3160",
+        "custom": "{\"names\":{\"nb\":\"Politiets publikumssenter - Stokke\",\"en\":\"Politiets publikumssenter - Stokke\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "fa34afc5c058656523a31c697ba28ea05dcfe702aec415fbb80d661a6d7e80e8",
+        "internalId": 51,
+        "name": "Politiets publikumssenter i Stokke",
+        "qpId": "51",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Kongsberg",
+        "addressLine1": "Dymyrgata 12",
+        "addressZip": "3612",
+        "custom": "{\"names\":{\"nb\":\"Kongsberg politistasjon\",\"en\":\"Kongsberg politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "3fd68885eaa1fd188c56838fb476d4a8da7a02a1727d1a3c5842e0949f11b324",
+        "internalId": 79,
+        "name": "Kongsberg politistasjon",
+        "qpId": "79",
+        "timeZone": "Europe/Berlin"
+      }
+    ],
+    "fullName": " /Sør-Øst politidistrikt",
+    "id": 60,
+    "name": "Sør-Øst politidistrikt",
+    "subGroupIds": []
+  },
+  {
+    "branchIds": [
+      5,
+      15,
+      28,
+      45,
+      63
+    ],
+    "branches": [
+      {
+        "addressCity": "Bardu",
+        "addressLine1": "Infanteriveien 9",
+        "addressZip": "9360",
+        "custom": "{\"names\":{\"nb\":\"Bardu politistasjon\",\"en\":\"Bardu politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "58fd1fc0f9c3169e1d365575511cfb339c50b5db5cb26113bc95592fc9636a68",
+        "internalId": 5,
+        "name": "Bardu politistasjon",
+        "qpId": "5",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Finnsnes",
+        "addressLine1": "Hans Karoliusvei 6",
+        "addressZip": "9300",
+        "custom": "{\"names\":{\"nb\":\"Finnsnes politistasjon\",\"en\":\"Finnsnes politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "55416a725399ddbb52fff9f70f317f6d339275059bdcb9f32f3b1b03a268f5a6",
+        "internalId": 15,
+        "name": "Finnsnes politistasjon",
+        "qpId": "15",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Harstad",
+        "addressLine1": "Øysteins gate 8",
+        "addressZip": "9405",
+        "custom": "{\"names\":{\"nb\":\"Harstad politistasjon\",\"en\":\"Harstad politistasjon\"}}",
+        "id": "e3b843cf9121ea50d874bc361ca10db27868c625454d30962b79af08ae73780b",
+        "internalId": 28,
+        "name": "Harstad politistasjon",
+        "qpId": "28",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Storslett",
+        "addressLine1": "Sentrum 11",
+        "addressZip": "9151",
+        "custom": "{\"names\":{\"nb\":\"Nordreisa og Kvænangen politistasjon\",\"en\":\"Nordreisa og Kvænangen politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "4cae8fc9840ef4c8b84fe0f556f8a09ca36aa4e17948c29e9e30e2e579f8f94d",
+        "internalId": 45,
+        "name": "Nordreisa og Kvænangen politistasjon",
+        "qpId": "45",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Tromsø",
+        "addressLine1": "Stakkevollvegen 9",
+        "addressZip": "9010",
+        "custom": "{\"names\":{\"nb\":\"Tromsø politistasjon\",\"en\":\"Tromsø politistasjon\"}}",
+        "id": "cdf7f5063cfb8065a3e2e4adf33e32c656ef0480de5e7a0f068d534328acc612",
+        "internalId": 63,
+        "name": "Tromsø politistasjon",
+        "qpId": "63",
+        "timeZone": "Europe/Berlin"
+      }
+    ],
+    "fullName": " /Troms politidistrikt",
+    "id": 61,
+    "name": "Troms politidistrikt",
+    "subGroupIds": []
+  },
+  {
+    "branchIds": [
+      30,
+      42,
+      47,
+      48,
+      49,
+      58,
+      59,
+      64,
+      77
+    ],
+    "branches": [
+      {
+        "addressCity": "Heimdal",
+        "addressLine1": " Johan Tillers vei 1",
+        "addressZip": "7080",
+        "custom": "{\"names\":{\"nb\":\"Heimdal politistasjon\",\"en\":\"Heimdal politistasjon\"}}",
+        "id": "a5cb8090ab3cadc95b8e94fc2f90c7700e391b9fc0d2a1a31cbd54157d86eff1",
+        "internalId": 30,
+        "name": "Heimdal politistasjon",
+        "qpId": "30",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Namsos",
+        "addressLine1": "Sandgata 13",
+        "addressZip": "7801",
+        "custom": "{\"names\":{\"nb\":\"Namsos politistasjon\",\"en\":\"Namsos politistasjon\"}}",
+        "id": "e2f5e5f4ea8df89d50fc3caef3705519ce697b22f11f466ef86ddf2ca78aa436",
+        "internalId": 42,
+        "name": "Namsos politistasjon",
+        "qpId": "42",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Oppdal",
+        "addressLine1": "Rådhuset, Inge Krokanns veg 2",
+        "addressZip": "7340",
+        "custom": "{\"names\":{\"nb\":\"Oppdal politistasjon\",\"en\":\"Oppdal politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "899cf7b06941d67e79601fe02f9274bf66018118efed29ed0d3c98dd853a5cb2",
+        "internalId": 47,
+        "name": "Oppdal politistasjon",
+        "qpId": "47",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Orkanger",
+        "addressLine1": "Orkdalsveien 35",
+        "addressZip": "7300",
+        "custom": "{\"names\":{\"nb\":\"Orkdal og Agdenes politistasjon\",\"en\":\"Orkdal og Agdenes politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "6aabb5497793a7a45f44af72aecb111f6da3562730e2da49630fc2760ec539ef",
+        "internalId": 48,
+        "name": "Orkdal og Agdenes politistasjon",
+        "qpId": "48",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Brekstad",
+        "addressLine1": "Rådhusgata 6",
+        "addressZip": "7130",
+        "custom": "{\"names\":{\"nb\":\"Ørland politistasjon\",\"en\":\"Ørland politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "f90a0285bf78575f5d20203d32def444b8fb8a4c99cc22848b1e75719bee0a1b",
+        "internalId": 49,
+        "name": "Ørland politistasjon",
+        "qpId": "49",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Steinkjer",
+        "addressLine1": "Statens hus, Strandveien 38",
+        "addressZip": "7713",
+        "custom": "{\"names\":{\"nb\":\"Steinkjer politistasjon\",\"en\":\"Steinkjer politistasjon\"}}",
+        "id": "3c6ac4c3882e046c05c6ee30cc4839e405761906cce3be09f693aafde90b3332",
+        "internalId": 58,
+        "name": "Steinkjer politistasjon",
+        "qpId": "58",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Stjørdal",
+        "addressLine1": "Værnesgata 21",
+        "addressZip": "7500",
+        "custom": "{\"names\":{\"nb\":\"Stjørdal politistasjon\",\"en\":\"Stjørdal politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "f687c6a208976fe6ac5f3b1966299e348fe537e59ba4e39dd209f8b6bd0e5398",
+        "internalId": 59,
+        "name": "Stjørdal politistasjon",
+        "qpId": "59",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Trondheim",
+        "addressLine1": "Gryta 4",
+        "addressZip": "7005",
+        "custom": "{\"names\":{\"nb\":\"Trondheim sentrum politistasjon\",\"en\":\"Trondheim sentrum politistasjon\"}}",
+        "id": "a7d1ce445762e13d9634fe8263262fd2faf362877741916a67ee82e26abd121b",
+        "internalId": 64,
+        "name": "Trondheim sentrum politistasjon",
+        "qpId": "64",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Kolvereid",
+        "addressLine1": "foldavegen 4655",
+        "addressZip": "7970",
+        "custom": "{\"names\":{\"nb\":\"Nærøy politistasjon\",\"en\":\"Nærøy politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "29333c2a1ac07acbca01e3cbb684c604e9be0d96dd306b207e1ebb3b06fbe74b",
+        "internalId": 77,
+        "name": "Nærøy politistasjon",
+        "qpId": "77",
+        "timeZone": "Europe/Berlin"
+      }
+    ],
+    "fullName": " /Trøndelag politidistrikt",
+    "id": 62,
+    "name": "Trøndelag politidistrikt",
+    "subGroupIds": []
+  },
+  {
+    "branchIds": [
+      6,
+      10,
+      16,
+      19,
+      27,
+      44,
+      54,
+      56,
+      69,
+      80
+    ],
+    "branches": [
+      {
+        "addressCity": "Fyllingsdalen",
+        "addressLine1": "Krokatjønnveien 15",
+        "addressZip": "5147",
+        "custom": "{\"names\":{\"nb\":\"Bergen Vest politistasjon\",\"en\":\"Bergen Vest politistasjon\"}}",
+        "id": "d7b7dfe29e507f78dff90f35d540095f4d4eea1a78be9b1299b375e7ca30f227",
+        "internalId": 6,
+        "name": "Bergen Vest politistasjon",
+        "qpId": "6",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Nordfjordeid",
+        "addressLine1": "Almeningen 1",
+        "addressZip": "6770",
+        "custom": "{\"names\":{\"nb\":\"Stad politistasjon\",\"en\":\"Stad politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "email": "",
+        "id": "f72f0ae488a3f26e55634ff81d128149b96c4be593eb343955087d1448c15a0b",
+        "internalId": 10,
+        "name": "Stad politistasjon",
+        "phone": "",
+        "qpId": "10",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Florø",
+        "addressCountry": "",
+        "addressLine1": "Strandavegen 13",
+        "addressLine2": "",
+        "addressZip": "6901",
+        "custom": "{\"names\":{\"nb\":\"Florø politistasjon\",\"en\":\"Florø politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "email": "",
+        "id": "43ee435022fb728fc94a96e172b137017a4cf3954c17676a6f379151b1e73613",
+        "internalId": 16,
+        "name": "Florø politistasjon",
+        "phone": "",
+        "qpId": "16",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Førde",
+        "addressLine1": "Hafstadvegen 51",
+        "addressZip": "6800",
+        "custom": "{\"names\":{\"nb\":\"Førde politistasjon\",\"en\":\"Førde politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "email": "",
+        "id": "38d51e979f13602dd0da0c5a9956482251be3ec1a5e45db63e046fb6f264d4b7",
+        "internalId": 19,
+        "name": "Førde politistasjon",
+        "phone": "",
+        "qpId": "19",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Odda",
+        "addressLine1": "Røldalsveien 34",
+        "addressZip": "5750",
+        "custom": "{\"names\":{\"nb\":\"Hardanger politistasjon\",\"en\":\"Hardanger politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "44bfcd71ead8cedb06cfac8966d899d89b1f13d6ed98cfc62e0b682dab870981",
+        "internalId": 27,
+        "name": "Hardanger politistasjon",
+        "qpId": "27",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Isdalstø",
+        "addressLine1": "Kvernhushaugane 2",
+        "addressZip": "5914",
+        "custom": "{\"names\":{\"nb\":\"Nordhordland politistasjon\",\"en\":\"Nordhordland politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "email": "",
+        "id": "407d47f595a2e79871a88e57359f789cd7b9bdc2dd8f747136d51c6e0ee2aa30",
+        "internalId": 44,
+        "name": "Nordhordland politistasjon",
+        "phone": "",
+        "qpId": "44",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Sogndal",
+        "addressLine1": "Fjøravegen 20",
+        "addressZip": "6856",
+        "custom": "{\"names\":{\"nb\":\"Sogndal politistasjon\",\"en\":\"Sogndal politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "id": "9f3f7cf45ab25856306d9d5a43a4bfc7bc03e7b2aee86a53068e03eedfc87997",
+        "internalId": 54,
+        "name": "Sogndal politistasjon",
+        "qpId": "54",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Straume",
+        "addressLine1": "Skjenet 4",
+        "addressZip": "5354",
+        "custom": "{\"names\":{\"nb\":\"Øygarden politistasjon\",\"en\":\"Øygarden politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "email": "",
+        "id": "7e2786ecaf5ddd38194319b37b9c61528c7c8245c3ecba4c62828f14eff94e17",
+        "internalId": 56,
+        "name": "Øygarden politistasjon",
+        "phone": "",
+        "qpId": "56",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Voss",
+        "addressLine1": "Hardangervegen 6",
+        "addressZip": "5700",
+        "custom": "{\"names\":{\"nb\":\"Voss politistasjon\",\"en\":\"Voss politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "email": "",
+        "id": "9d9f6c7a34c8fe900c987ffa4caf1b7302b4e86561373878c7e782c53f4dd60f",
+        "internalId": 69,
+        "name": "Voss politistasjon",
+        "phone": "",
+        "qpId": "69",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Os",
+        "addressLine1": "Mobergsbakken 109",
+        "addressZip": "5209",
+        "custom": "{\"names\":{\"nb\":\"Bjørnafjorden politistasjon\",\"en\":\"Bjørnafjorden politistasjon\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "email": "",
+        "id": "7739c0f2a5d78841ea0c6e94053d75d64efbeb2a4a0ec0ba281fb33c851d5761",
+        "internalId": 80,
+        "name": "Bjørnafjorden politistasjon",
+        "phone": "",
+        "qpId": "80",
+        "timeZone": "Europe/Berlin"
+      }
+    ],
+    "fullName": " /Vest politidistrikt",
+    "id": 63,
+    "name": "Vest politidistrikt",
+    "subGroupIds": []
+  },
+  {
+    "branchIds": [
+      18,
+      21,
+      37
+    ],
+    "branches": [
+      {
+        "addressCity": "Ski",
+        "addressCountry": "",
+        "addressLine1": "Vestveien 20",
+        "addressLine2": "",
+        "addressZip": "1400",
+        "custom": "{\"names\":{\"nb\":\"Politiets publikumssenter - Ski\",\"en\":\"Politiets publikumssenter - Ski\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "email": "",
+        "id": "b56db719fe3d46ba2d691e97b8dc58ff99bf66e93980ac01c0b88e7c386d7fac",
+        "internalId": 18,
+        "name": "Politiets publikumssenter - Ski",
+        "phone": "",
+        "qpId": "18",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Grålum",
+        "addressCountry": "",
+        "addressLine1": "Rådmann Siras vei 4",
+        "addressLine2": "",
+        "addressZip": "1712",
+        "custom": "{\"names\":{\"nb\":\"Politiets publikumssenter - Grålum\",\"en\":\"Politiets publikumssenter - Grålum\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "email": "",
+        "id": "d4fd948139a6bb3c88d56ba8bb259ed35ba5f4dec5882e82528624312de37b78",
+        "internalId": 21,
+        "name": "Politiets publikumssenter - Grålum",
+        "phone": "",
+        "qpId": "21",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Lillestrøm",
+        "addressCountry": "",
+        "addressLine1": "Jonas Lies gate 20",
+        "addressLine2": "",
+        "addressZip": "2000",
+        "custom": "{\"names\":{\"nb\":\"Politiets publikumssenter - Lillestrøm\",\"en\":\"Politiets publikumssenter - Lillestrøm\"},\"address\":{\"nb\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"},\"en\":{\"address1\":\"\",\"address2\":\"\",\"city\":\"\",\"country\":\"\"}}}",
+        "email": "",
+        "id": "9362230d4803607d0f874f958a554d0d46642980c7917856a34fa46786acd48e",
+        "internalId": 37,
+        "name": "Politiets publikumssenter - Lillestrøm",
+        "phone": "",
+        "qpId": "37",
+        "timeZone": "Europe/Berlin"
+      }
+    ],
+    "fullName": " /Øst politidistrikt",
+    "id": 250,
+    "name": "Øst politidistrikt",
+    "subGroupIds": []
+  },
+  {
+    "branchIds": [
+      84,
+      88,
+      92,
+      96,
+      99,
+      102,
+      105,
+      108,
+      111,
+      114,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128
+    ],
+    "branches": [
+      {
+        "addressCity": "Sommarøy",
+        "addressLine1": "Hillesøyvegen 204",
+        "addressZip": "9110 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Sommarøy\",\"en\":\"Mobilt pass- og ID-kontor Sommarøy\"}}",
+        "id": "4f4dbdd5873da8309159d54ddc4f6187d7256c0774dddec371e9182533ec54f5",
+        "internalId": 83,
+        "name": "Mobilt pass- og ID-kontor Sommarøy",
+        "qpId": "84",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Tromvik",
+        "addressLine1": "Tromtindvegen 215",
+        "addressZip": "9107",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Tromvik\",\"en\":\"Mobilt pass- og ID-kontor Tromvik\"}}",
+        "id": "90c7e542b1cf3f9b1ae3f627ff6dfdc47ade28d761f2019c01db35f977e8c568",
+        "internalId": 87,
+        "name": "Mobilt pass- og ID-kontor Tromvik",
+        "qpId": "88",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Hansnes",
+        "addressLine1": "Kirkebakken 1",
+        "addressZip": "9130",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Hansnes\",\"en\":\"Mobilt pass- og ID-kontor Hansnes\"}}",
+        "id": "2bf06fe94d00f40bf9518208538ce52eaa6ef35de789bab8e77d94016391a3aa",
+        "internalId": 91,
+        "name": "Mobilt pass- og ID-kontor Hansnes",
+        "qpId": "92",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Nordkjosbotn",
+        "addressLine1": "Industriveien 2",
+        "addressZip": " 9040 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Nordkjosbotn\",\"en\":\"Mobilt pass- og ID-kontor Nordkjosbotn\"}}",
+        "id": "5c69f8942585b0d02b192bc916a299fa7861b03d8f417c8b867a9d3b8331d0e8",
+        "internalId": 95,
+        "name": "Mobilt pass- og ID-kontor Nordkjosbotn",
+        "qpId": "96",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Lyngseidet",
+        "addressLine1": "Strandveien 24",
+        "addressZip": "9060 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Lyngseidet\",\"en\":\"Mobilt pass- og ID-kontor Lyngseidet\"}}",
+        "id": "268b0a8c77e86fe263634f4155a4279369aa990d4759b0863feacb64b9d2ca51",
+        "internalId": 98,
+        "name": "Mobilt pass- og ID-kontor Lyngseidet",
+        "qpId": "99",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Skibotn",
+        "addressLine1": "Skibotsveien 285",
+        "addressZip": "9143",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Skibotn\",\"en\":\"Mobilt pass- og ID-kontor Skibotn\"}}",
+        "id": "b6065435587eac057151f2ed9858a624d9d94e61e625d997bd78042269c5fdab",
+        "internalId": 101,
+        "name": "Mobilt pass- og ID-kontor Skibotn",
+        "qpId": "102",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Burfjord",
+        "addressLine1": "Fv364 1190",
+        "addressZip": "9161 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Burfjord\",\"en\":\"Mobilt pass- og ID-kontor Burfjord\"}}",
+        "id": "685b8fa7577aa1a6459c0a717b9a6428a804435437f9938b1deb52547128e90c",
+        "internalId": 104,
+        "name": "Mobilt pass- og ID-kontor Burfjord",
+        "qpId": "105",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Gryllefjord",
+        "addressLine1": "Heredshusveien 11 ",
+        "addressZip": "9380",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Gryllefjord\",\"en\":\"Mobilt pass- og ID-kontor Gryllefjord\"}}",
+        "id": "e16871d68096d8f45095139a4eb06cc70e4a21707296e448b1e7eb42d6ccdb82",
+        "internalId": 107,
+        "name": "Mobilt pass- og ID-kontor Gryllefjord",
+        "qpId": "108",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Skjervøy",
+        "addressLine1": "Strandveien 47",
+        "addressZip": "9180",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Skjervøy\",\"en\":\"Mobilt pass- og ID-kontor Skjervøy\"}}",
+        "id": "fe867b58f306d7709ffd3d61f214473de7f4c73ddcdfdf1e24d9b6b5644732e1",
+        "internalId": 110,
+        "name": "Mobilt pass- og ID-kontor Skjervøy",
+        "qpId": "111",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Meistervik",
+        "addressLine1": "Malangenveien 850",
+        "addressZip": "9055",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Malangen\",\"en\":\"Mobilt pass- og ID-kontor Malangen\"}}",
+        "id": "235d6f759c8cc56a646de540642ed1e333735760e47fff076d87a3d423c4f94d",
+        "internalId": 113,
+        "name": "Mobilt pass- og ID-kontor Malangen",
+        "qpId": "114",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Øksfjord",
+        "addressLine1": "Kirkeveien 4",
+        "addressZip": "9550",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Øksfjord\",\"en\":\"Mobilt pass- og ID-kontor Øksfjord\"}}",
+        "id": "9480249118fa5d5a11b374f855a31f37a45a8c70a0ba2f699f61bf7f1fd69422",
+        "internalId": 115,
+        "name": "Mobilt pass- og ID-kontor Øksfjord",
+        "qpId": "116",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Honningsvåg",
+        "addressLine1": "Holmen 2",
+        "addressZip": "9750 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Honningsvåg\",\"en\":\"Mobilt pass- og ID-kontor Honningsvåg\"}}",
+        "id": "f7111d6c0602b9bd4ec5355cf37de2a025e6b599ef9930d75c9d52383aaba585",
+        "internalId": 116,
+        "name": "Mobilt pass- og ID-kontor Honningsvåg",
+        "qpId": "117",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Kjøllefjord",
+        "addressLine1": "Strandveien 177",
+        "addressZip": "9790",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Kjøllefjord\",\"en\":\"Mobilt pass- og ID-kontor Kjøllefjord\"}}",
+        "id": "266754180f5dd833a8a4258a7a9de05d2fd2f2473c61aa08eb220cef5bd11235",
+        "internalId": 117,
+        "name": "Mobilt pass- og ID-kontor Kjøllefjord",
+        "qpId": "118",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Båtsfjord",
+        "addressLine1": "Fjordveien 13",
+        "addressZip": "9990",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Båtsfjord\",\"en\":\"Mobilt pass- og ID-kontor Båtsfjord\"}}",
+        "id": "4710902b7a5d218cb2e4241a3e99afc831dfe76592b4835b3dee82966a74cc9d",
+        "internalId": 118,
+        "name": "Mobilt pass- og ID-kontor Båtsfjord",
+        "qpId": "119",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Kautokeino",
+        "addressLine1": "Bredbuktnessveien 8",
+        "addressZip": "9520 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Kautokeino\",\"en\":\"Mobilt pass- og ID-kontor Kautokeino\"}}",
+        "id": "89802384b11de9107144768ae42e07bf222b80aaae1156fe20ad55afd78f2a83",
+        "internalId": 119,
+        "name": "Mobilt pass- og ID-kontor Kautokeino",
+        "qpId": "120",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Havøysund",
+        "addressLine1": "Strandgaten 158",
+        "addressZip": "9690",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Havøysund\",\"en\":\"Mobilt pass- og ID-kontor Havøysund\"}}",
+        "id": "a7b1721150475f30bf44f30ee35033144007d598370e0a92fa2dfebd2687e375",
+        "internalId": 120,
+        "name": "Mobilt pass- og ID-kontor Havøysund",
+        "qpId": "121",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Andenes ",
+        "addressLine1": "Roald Amundsensgate 10, 8480",
+        "addressZip": "8480",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Andenes\",\"en\":\"Mobilt pass- og ID-kontor Andenes\"}}",
+        "id": "c9dfff7e10b44fb0891578bd498b5fed289a450f5c5eedb323c1589c186a538b",
+        "internalId": 121,
+        "name": "Mobilt pass- og ID-kontor Andenes",
+        "qpId": "122",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Leknes",
+        "addressLine1": "Storvollveien 45",
+        "addressZip": "8370 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Leknes\",\"en\":\"Mobilt pass- og ID-kontor Leknes\"}}",
+        "id": "6144053a90086f3b7ad555dc5b46b79738b79b281969900fb5d5f8751c20236a",
+        "internalId": 122,
+        "name": "Mobilt pass- og ID-kontor Leknes",
+        "qpId": "123",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Innhavet",
+        "addressLine1": "Finnøyveien 68",
+        "addressZip": "8260",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Innhavet\",\"en\":\"Mobilt pass- og ID-kontor Innhavet\"}}",
+        "id": "7c49ed12f3f6cf228bb62a0613883ac527715b6b694b229be0d7654a01e4d66f",
+        "internalId": 123,
+        "name": "Mobilt pass- og ID-kontor Innhavet",
+        "qpId": "124",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Ørnes",
+        "addressZip": "8150 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Ørnes\",\"en\":\"Mobilt pass- og ID-kontor Ørnes\"}}",
+        "id": "07adbf66481a4c1e6daa4f9108db8592618ed9614b8a4646d130d1dabdac8825",
+        "internalId": 124,
+        "name": "Mobilt pass- og ID-kontor Ørnes",
+        "qpId": "125",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Leinesfjord",
+        "addressLine1": "Myklebostad 1",
+        "addressZip": " 8283",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Leinesfjorden i Steigen\",\"en\":\"Mobilt pass- og ID-kontor Leinesfjorden i Steigen\"}}",
+        "id": "bd41a65a2a9e4b8722453cd7f48642d2e632ea26ca346721164dc286d1a8e2de",
+        "internalId": 125,
+        "name": "Mobilt pass- og ID-kontor Leinesfjorden i Steigen",
+        "qpId": "126",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Sjøvegen",
+        "addressLine1": "Strandveien 33",
+        "addressZip": "9350",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Sjøvegan\",\"en\":\"Mobilt pass- og ID-kontor Sjøvegan\"}}",
+        "id": "66a8dcd57473c36543ce7abdcf0c3a33f327e8028d7b70b3d2b1ed3f7d0827f4",
+        "internalId": 126,
+        "name": "Mobilt pass- og ID-kontor Sjøvegan",
+        "qpId": "127",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Ibestad",
+        "addressLine1": "Kopparvika 2",
+        "addressZip": "9450 Hamnvik",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Ibestad\",\"en\":\"Mobilt pass- og ID-kontor Ibestad\"}}",
+        "id": "34e44e1a8432475e48fa4a49fa186febaaa098fe79c4d09052a4500c675db112",
+        "internalId": 127,
+        "name": "Mobilt pass- og ID-kontor Ibestad",
+        "qpId": "128",
+        "timeZone": "Europe/Berlin"
+      }
+    ],
+    "fullName": " /Mobilt pass- og ID-kontor Nord",
+    "id": 900,
+    "name": "Mobilt pass- og ID-kontor Nord",
+    "subGroupIds": []
+  },
+  {
+    "branchIds": [
+      85,
+      86,
+      87,
+      89,
+      90,
+      91,
+      93,
+      94,
+      95,
+      97,
+      98,
+      100,
+      101,
+      103,
+      104,
+      106,
+      107,
+      109,
+      110,
+      112,
+      113,
+      115
+    ],
+    "branches": [
+      {
+        "addressCity": "Høyanger ",
+        "addressLine1": "August Gunnarskogsgate 2",
+        "addressZip": "6993 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Høyanger\",\"en\":\"Mobilt pass- og ID-kontor Høyanger\"}}",
+        "id": "125abfc78bd6ffada3ecae12df6e45cbf022e964800cd49f8be65dc9908861af",
+        "internalId": 84,
+        "name": "Mobilt pass- og ID-kontor Høyanger",
+        "qpId": "85",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Vik",
+        "addressLine1": "Vikjatunet",
+        "addressZip": "6891 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Vik\",\"en\":\"Mobilt pass- og ID-kontor Vik\"}}",
+        "id": "cc8b5449a3ead406488a9a8a7294cf8e634b8d6ab49fabc7dc1e1ca84e7b667b",
+        "internalId": 85,
+        "name": "Mobilt pass- og ID-kontor Vik",
+        "qpId": "86",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Lærdal",
+        "addressLine1": "Øyraplassen 7",
+        "addressZip": " 6886 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Lærdal\",\"en\":\"Mobilt pass- og ID-kontor Lærdal\"}}",
+        "id": "f558afb4202501f63cf6c4b547c93eee2ada33a44f5efaac4d69e69810e5fd95",
+        "internalId": 86,
+        "name": "Mobilt pass- og ID-kontor Lærdal",
+        "qpId": "87",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Fiskå",
+        "addressLine1": "Vanylven Rådshus",
+        "addressZip": "6139 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Vanylven\",\"en\":\"Mobilt pass- og ID-kontor Vanylven\"}}",
+        "id": "6d98a27c906cdb9af30d6d76c22dca8dd791438b85d0e34ae3fc54bf91dcfcbd",
+        "internalId": 88,
+        "name": "Mobilt pass- og ID-kontor Vanylven",
+        "qpId": "89",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Valldal ",
+        "addressLine1": "Olavsgate 10",
+        "addressZip": "6210 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Valldal\",\"en\":\"Mobilt pass- og ID-kontor Valldal\"}}",
+        "id": "3c335ac9b13be937a1e8ad5f58f2b0239380476af3b1167867c2cdf26d315305",
+        "internalId": 89,
+        "name": "Mobilt pass- og ID-kontor Valldal",
+        "qpId": "90",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Åndalsnes ",
+        "addressLine1": "Raumabredda 3",
+        "addressZip": "6300 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Rauma\",\"en\":\"Mobilt pass- og ID-kontor Rauma\"}}",
+        "id": "93538d0402428e69b17f081190cf58af3237216c1672c30eada44eceabe6d6a2",
+        "internalId": 90,
+        "name": "Mobilt pass- og ID-kontor Rauma",
+        "qpId": "91",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Smøla ",
+        "addressLine1": "Rådhusveien 14",
+        "addressZip": "6570 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Smøla\",\"en\":\"Mobilt pass- og ID-kontor Smøla\"}}",
+        "id": "775f75e70caecc7e34ccebfae37abb66acc40aa68fc1ced2cb0a86a1538de546",
+        "internalId": 92,
+        "name": "Mobilt pass- og ID-kontor Smøla",
+        "qpId": "93",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Hitra",
+        "addressLine1": "Rådhusveien 1",
+        "addressZip": "7240 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Hitra\",\"en\":\"Mobilt pass- og ID-kontor Hitra\"}}",
+        "id": "3f74c088f21ef01241e16441c64418f0fef80c1b031c21acfe96c12cd9f2ff1f",
+        "internalId": 93,
+        "name": "Mobilt pass- og ID-kontor Hitra",
+        "qpId": "94",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Grong ",
+        "addressLine1": "Torget",
+        "addressZip": "7870 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Grong\",\"en\":\"Mobilt pass- og ID-kontor Grong\"}}",
+        "id": "5277f863cf3a93cddc8e82c702eace1425e51c2a5fbe1d37d1ab8f562bbcb752",
+        "internalId": 94,
+        "name": "Mobilt pass- og ID-kontor Grong",
+        "qpId": "95",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Tydal ",
+        "addressLine1": "Tydalsvegen 125",
+        "addressZip": "7590 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Tydal\",\"en\":\"Mobilt pass- og ID-kontor Tydal\"}}",
+        "id": "e94aa9ef71135d02c456ad4df215bd328dcbd467b611110b77b81938419c18a0",
+        "internalId": 96,
+        "name": "Mobilt pass- og ID-kontor Tydal",
+        "qpId": "97",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Røros",
+        "addressLine1": "Bergmannsgata 15",
+        "addressZip": "7361 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Røros\",\"en\":\"Mobilt pass- og ID-kontor Røros\"}}",
+        "id": "dc147da9d199c56eaef8cbdd339eba23f5a4077280d8dbaf7db4ebe0b6646c7e",
+        "internalId": 97,
+        "name": "Mobilt pass- og ID-kontor Røros",
+        "qpId": "98",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Lom ",
+        "addressLine1": "Murgarden",
+        "addressZip": "2686 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Lom\",\"en\":\"Mobilt pass- og ID-kontor Lom\"}}",
+        "id": "c8441be8d1b07673674e14c08a715a5bf6b4ec8a1d7bfe1b6a6d50ea50cec835",
+        "internalId": 99,
+        "name": "Mobilt pass- og ID-kontor Lom",
+        "qpId": "100",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Rødberg",
+        "addressLine1": "Kioskgården",
+        "addressZip": "3630 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Nore og Uvdal\",\"en\":\"Mobilt pass- og ID-kontor Nore og Uvdal\"}}",
+        "id": "6b5648c6618bbb2269455b65a30c2f887ba785b09a0c702f097e656a844a9ab2",
+        "internalId": 100,
+        "name": "Mobilt pass- og ID-kontor Nore og Uvdal",
+        "qpId": "101",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Rjukan ",
+        "addressLine1": "Sam Eydesgate 71",
+        "addressZip": "3660 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Rjukan\",\"en\":\"Mobilt pass- og ID-kontor Rjukan\"}}",
+        "id": "972c41a113325e2f43d94c08ea1fbe6958cd458917774b028fc9fc3128b36e62",
+        "internalId": 102,
+        "name": "Mobilt pass- og ID-kontor Rjukan",
+        "qpId": "103",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Vinje",
+        "addressLine1": "Vinjevegen 184",
+        "addressZip": "3890 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Vinje\",\"en\":\"Mobilt pass- og ID-kontor Vinje\"}}",
+        "id": "eafd6cf4198ff66dcea604a683b44370645eedbeddd7a76b789504eeda1c76ee",
+        "internalId": 103,
+        "name": "Mobilt pass- og ID-kontor Vinje",
+        "qpId": "104",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Valle",
+        "addressLine1": "Kjellebergsveien 12",
+        "addressZip": "4747 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Valle\",\"en\":\"Mobilt pass- og ID-kontor Valle\"}}",
+        "id": "03053a2db36d226c9ad2a5b13962c838cceec3c87f7f80dcc1c794e2ea681ae5",
+        "internalId": 105,
+        "name": "Mobilt pass- og ID-kontor Valle",
+        "qpId": "106",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Evje ",
+        "addressLine1": " Verksvegen 4",
+        "addressZip": "4735 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Evje\",\"en\":\"Mobilt pass- og ID-kontor Evje\"}}",
+        "id": "b9175bbdc3d651f5bf376041fdaccea56545b77078f00446c592faaa69742a4d",
+        "internalId": 106,
+        "name": "Mobilt pass- og ID-kontor Evje",
+        "qpId": "107",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Hjelmeland ",
+        "addressLine1": "Vågavegen 116",
+        "addressZip": "4130 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Hjelmeland\",\"en\":\"Mobilt pass- og ID-kontor Hjelmeland\"}}",
+        "id": "c603645902c4edecad0474f704b0e2311db6c24e6dc98e6016ea03dc1e0c4f28",
+        "internalId": 108,
+        "name": "Mobilt pass- og ID-kontor Hjelmeland",
+        "qpId": "109",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Utsira ",
+        "addressLine1": "Utsiravegen 122",
+        "addressZip": "5547 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Utsira\",\"en\":\"Mobilt pass- og ID-kontor Utsira\"}}",
+        "id": "434ec7cc66cf1014165595a063d30f7007f6c467747ec40fbe0559e6c5bab1e0",
+        "internalId": 109,
+        "name": "Mobilt pass- og ID-kontor Utsira",
+        "qpId": "110",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Storebø",
+        "addressLine1": "Alfabygget 1",
+        "addressZip": "5392 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Austevoll\",\"en\":\"Mobilt pass- og ID-kontor Austevoll\"}}",
+        "id": "fc79316835c4b116d253b31f4ed9035be312b1784163e3017e0e2ee9d10bda6c",
+        "internalId": 111,
+        "name": "Mobilt pass- og ID-kontor Austevoll",
+        "qpId": "112",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Nordheimsund ",
+        "addressLine1": "Steinsdalsvegen 104",
+        "addressZip": "5600 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Norheimsund\",\"en\":\"Mobilt pass- og ID-kontor Norheimsund\"}}",
+        "id": "01a593d92c647d07a2d1a5fec55ccb35992b3df02efadc94ff8d7f71b15e70c3",
+        "internalId": 112,
+        "name": "Mobilt pass- og ID-kontor Norheimsund",
+        "qpId": "113",
+        "timeZone": "Europe/Berlin"
+      },
+      {
+        "addressCity": "Husnes ",
+        "addressLine1": "Stabburshaugen 5",
+        "addressZip": "5460 ",
+        "custom": "{\"names\":{\"nb\":\"Mobilt pass- og ID-kontor Husnes\",\"en\":\"Mobilt pass- og ID-kontor Husnes\"}}",
+        "id": "b94e86ee8180fcd6fee73eb440f2e7b4c3f291af7899425f0e968fdaed4107a7",
+        "internalId": 114,
+        "name": "Mobilt pass- og ID-kontor Husnes",
+        "qpId": "115",
+        "timeZone": "Europe/Berlin"
+      }
+    ],
+    "fullName": " /Mobilt pass- og ID-kontor Sør",
+    "id": 901,
+    "name": "Mobilt pass- og ID-kontor Sør",
+    "subGroupIds": []
+  }
+]
